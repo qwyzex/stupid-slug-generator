@@ -1,6 +1,13 @@
 {
-  "name": "nextjs",
-  "private": true,
+  "name": "stupid-slug-generator",
+  "private": false,
+  "version": "0.1.0",
+  "description": "A stupid slug-generator",
+  "author": {
+    "name": "qwyzex",
+    "email": "qwyzex@gmail.com",
+    "url": "https://github.com/qwyzex"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +17,8 @@
   "dependencies": {
     "next": "12.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.49.0"
   },
   "devDependencies": {
     "eslint": "8.7.0",
